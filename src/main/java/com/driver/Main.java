@@ -11,7 +11,7 @@ public class Main {
         int ans2 = p.product(10,20,30);
         double ans3 = p.product(10.5,9.7);
 
-        System.out.println(ans +" "+ans1+" "+ans2);
+        System.out.println(ans +" "+ans2+" "+ans3);
     }
 
 
