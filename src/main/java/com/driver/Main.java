@@ -13,9 +13,9 @@ public class Main {
 
         System.out.println(ans +" "+ans1+" "+ans2);
     }
-}
 
-class Product {
+
+public static class Product {
 
     // Task 3: Create a method with the signature public int product(int x, int y)
     public int product(int x, int y) {
@@ -31,4 +31,5 @@ class Product {
     public double product(double x, double y) {
         return x * y;
     }
+}
 }
