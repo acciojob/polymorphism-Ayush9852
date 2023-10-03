@@ -3,20 +3,15 @@ package com.driver;
 public class Main {
 
     public static void main(String[] args) {
-        // Task 2: Create an object of the Product class
+        //Task 1 : Create an object of product class
         Product p = new Product();
+        
+        //Task 2: Store the answers
+        int ans = p.product(10,20);
+        int ans2 = p.product(10,20,30);
+        double ans3 = p.product(10.5,9.7);
 
-        // Task 3: Call the method product(int x, int y) from the Product class object p
-        int result1 = p.product(5, 10);
-        System.out.println("Result of product(int x, int y): " + result1);
-
-        // Task 4: Call the overloaded method product(int x, int y, int z) from the Product class object p
-        int result2 = p.product(5, 10, 2);
-        System.out.println("Result of product(int x, int y, int z): " + result2);
-
-        // Task 5: Call the overloaded method product(double x, double y) from the Product class object p
-        double result3 = p.product(5.5, 3.0);
-        System.out.println("Result of product(double x, double y): " + result3);
+        System.out.println(ans +" "+ans1+" "+ans2);
     }
 }
 
